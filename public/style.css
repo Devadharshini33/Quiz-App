@@ -74,10 +74,10 @@ button {
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
-li:hover {
+li:hover,
+li:active {
     background-color: rgb(129, 126, 126);
 }
-
 button:hover {
     background-color: rgb(173, 173, 173);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
