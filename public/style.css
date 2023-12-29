@@ -1,27 +1,26 @@
-body {
+.App{
     text-align: center;
-    background-color: rgb(221, 221, 221);
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 }
-
-.App {
-    margin: 0%;
-    flex-grow: 1;
+body{
+    background-color: rgb(168, 168, 168);
 }
-
 .question-card {
-    background-color: rgb(237, 237, 237);
-    padding: 16px;
+    background-color: rgb(168, 168, 168);
+  
+  width: 86%;
+  height: max-content;
+  margin-right: 10px;
+    padding: 100px;
     border-radius: 16px;
     color: rgb(0, 0, 0);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    width: 80%; /* Adjusted width for better appearance on mobile */
-    max-width: 600px; /* Set a maximum width for larger screens */
+   /* Adjusted width for better appearance on mobile */
+}
+.box{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .head {
@@ -83,13 +82,4 @@ button:hover {
     background-color: rgb(173, 173, 173);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
-}
-
-/* Media Query for smaller screens */
-@media (min-width: 480px) {
-   .question-card{
-  margin-top:50px;
-       margin-bottom:50px;
-       margin-left:50px;
-       margin-right:50px;
 }
