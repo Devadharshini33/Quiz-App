@@ -16,7 +16,6 @@ body {
 
 .question-card {
     background-color: rgb(237, 237, 237);
-    margin: 0 auto;
     padding: 16px;
     border-radius: 16px;
     color: rgb(0, 0, 0);
@@ -88,17 +87,9 @@ button:hover {
 
 /* Media Query for smaller screens */
 @media (min-width: 480px) {
-   #id{
-    width: 100%;
-   }
-    .
-}
-
-@media (max-width: 600px) {
-    #id{
-        width: 100%;
-       }
-    .question-card{
-        width:100%;
-   
+   .question-card{
+       margin-left:5%;
+       marging-right:5%;
+       width:100%;
+       background-color:pink;
 }
