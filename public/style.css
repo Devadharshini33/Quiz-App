@@ -83,3 +83,12 @@ button:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
+@media (max-width: 600px) {
+    .question-card {
+        padding: 10px;
+    }
+
+    .final-result {
+        width: 95%;
+    }
+}
