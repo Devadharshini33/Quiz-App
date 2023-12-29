@@ -15,8 +15,6 @@ body {
 }
 
 .question-card {
-    top: 30%;
-    bottom: 50%;
     background-color: rgb(237, 237, 237);
     margin: 0 auto;
     padding: 16px;
