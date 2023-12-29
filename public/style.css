@@ -89,15 +89,18 @@ button:hover {
 }
 
 /* Media Query for smaller screens */
-@media (max-width: 800px) {
+@media (min-width: 480px) {
    #id{
     width: 100%;
    }
+    .
 }
 
 @media (max-width: 600px) {
     #id{
         width: 100%;
        }
+    .question-card{
+        width:100%;
    
 }
