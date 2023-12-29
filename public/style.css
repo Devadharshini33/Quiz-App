@@ -91,7 +91,7 @@ button:hover {
 /* Media Query for smaller screens */
 @media (max-width: 800px) {
     .question-card, .final-result {
-        width: 90%;
+        width: 100%;
     }
 
     .final-result {
@@ -101,7 +101,7 @@ button:hover {
 
 @media (max-width: 600px) {
     .question-card, .final-result {
-        width: 95%;
+        width: 100%;
     }
 }
 
